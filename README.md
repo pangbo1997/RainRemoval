@@ -1,5 +1,5 @@
 # Single Image Deraining via Scale-space Invariant Attention Neural Network
-The paper[[Link]](https://arxiv.org/abs/2006.05049) is accepted by ACMMM2020. This is pytorch implementation for our paper.
+The paper[[Link]](https://arxiv.org/abs/2006.05049) is accepted by ACMMM2020(oral). This is pytorch implementation for our paper.
 The code is based on the [Pix2Pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
 
 ### Prerequisites
