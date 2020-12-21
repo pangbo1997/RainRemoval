@@ -1,6 +1,6 @@
-# Single Image Deraining via Scale-space Invariant Attention Neural Network
-The paper[[Link]](https://arxiv.org/abs/2006.05049) is accepted by ACMMM2020(oral). This is pytorch implementation for our paper.
-The code is based on the [Pix2Pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
+# Read Me
+This project can be used for mage restoration including blur effect, noise effect and etc. Specially, considering the multi-scale characteristic of the samples, we design a neural network with scale 
+invariant attention mechanism.
 
 ### Prerequisites
 
@@ -25,17 +25,6 @@ To generate images, please run
     --save_path [your save path] --gpu_id 0
     
 
-### Performance
-The evaluation metrics are provided by [Ren](https://github.com/csdwren/PReNet).
-The performances on the four  datasets are listed below:
 
-
-
-| Dataset| PSNR |SSIM | 
-| :-----:| :-----: | :-----:| 
-| Rain100L |   38.80  | 0.984 |
-| Rain100H   |   30.33  | 0.909 | 
-| Rain1400    |  32.80 | 0.946 | 
-| Rain12    |   37.42 | 0.967 | 
  
 
